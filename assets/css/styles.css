@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-chat{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.container-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 300px);
+    height: 100vh;
+    background-color: #e8ebe4;
+}
+
+.titulo1{
+    font-size: xx-large;
+    margin: 1rem;
+}
