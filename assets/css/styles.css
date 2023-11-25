@@ -10,7 +10,88 @@ main{
 .container-chat{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 22rem;
+}
+
+.user-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #bec1bb;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-online{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.img-chat{
+    border-radius: 50%;
+}
+
+.user-name{
+    margin: 0;
+}
+
+.user-status{
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.msgs{
+    padding: 0.5rem;
+}
+
+.bars{
+    padding: 0.5rem;
+}
+
+.new-chat{
+    padding: 40px;
+    border: 2px solid #bec1bb;
+}
+
+.btn-new-chat{
+    background-color: #A491D2;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.client-info{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 2px solid #bec1bb;
+}
+
+.client-online{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.client-name{
+    margin: 0;
+}
+
+.client-message{
+    margin: 0;
 }
 
 .container-view{
@@ -18,7 +99,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(100% - 300px);
+    width: calc(100% - 22rem);
     height: 100vh;
     background-color: #e8ebe4;
 }
