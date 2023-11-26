@@ -67,16 +67,20 @@ main{
 }
 
 .new-chat{
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #bec1bb;
 }
 
 .btn-new-chat{
     background-color: #A491D2;
-    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
     color: white;
     font-family: 'Roboto';
