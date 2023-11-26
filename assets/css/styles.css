@@ -41,14 +41,14 @@ main{
 .user-name{
     margin: 0;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .user-status{
     margin: 0;
     font-family: 'Open Sans';
-    font-size: 14px;
+    font-size: 10px;
     color: #bec1bb;
 }
 
@@ -80,7 +80,7 @@ main{
     text-align: center;
     color: white;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -101,14 +101,14 @@ main{
 .client-name{
     margin: 0;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .client-message{
     margin: 0;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .container-view{
