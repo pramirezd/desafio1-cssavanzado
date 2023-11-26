@@ -10,7 +10,7 @@ main{
 .container-chat{
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    flex-basis: 25rem;
     border-right: 2px solid #bec1bb;
     border-bottom: 2px solid #bec1bb;
 }
